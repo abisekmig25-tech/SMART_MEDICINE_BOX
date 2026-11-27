@@ -56,4 +56,56 @@ An automated solenoid-based mechanism provides controlled access to the medicine
 - Activates according to the medication reminder logic.
 - Designed to provide convenient access to scheduled medication.
 
-### 7. 🔄
+### 7. 🔄 Medication Queue Management
+
+Displays a waiting status when no medication is currently due.
+
+Presents the current scheduled medicine when its time arrives.
+
+Allows the user to acknowledge the current medication.
+
+Advances to the next scheduled medication after the current one is marked as taken.
+
+🛠️ Hardware Components
+
+Component
+
+Purpose
+
+ESP32-WROOM-32
+
+Main microcontroller
+
+0.96-inch OLED Display
+
+Displays medicine information
+
+Buzzer
+
+Audio medication reminders
+
+LED
+
+Visual status indication
+
+Solenoid
+
+Automated compartment mechanism
+
+MOSFET Driver Circuit
+
+Controls the solenoid
+
+Flyback Diode
+
+Protects the solenoid driver circuit
+
+USB-C Power Input
+
+Main power supply
+
+Custom PCB
+
+Integrates the electronic components
+
+Additional supporting components include resistors, capacitors, connectors and power-management components.
